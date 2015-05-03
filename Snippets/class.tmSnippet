@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>class ${1:NewClassName} extends ${2|React.Component, SuperClass|} {
+  constructor(${3:props}) {
+    super(${3:props});
+    
+    // instance attributes
+    this.${5:state} = {${6}};
+  }
+  
+  // static classMethod() {
+  //   return ${7};
+  // }
+}
+
+export default ${1};
+</string>
+	<key>name</key>
+	<string>class</string>
+	<key>semanticClass</key>
+	<string>source.js</string>
+	<key>tabTrigger</key>
+	<string>cla</string>
+	<key>uuid</key>
+	<string>F0BD6024-D602-4463-B5EE-D4617A6E0B4A</string>
+</dict>
+</plist>
